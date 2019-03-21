@@ -17,6 +17,6 @@ class RemoveItemAction {
   RemoveItemAction(this.item);
 }
 
-class RemoteItemsAction {
-    
+class RemoveItemsAction {
+
 }

@@ -16,7 +16,7 @@ List<Item> itemReducer(List<Item> state, action) {
     return List.unmodifiable(List.from(state)..remove(action.item));
   }
 
-  if (action is RemoteItemsAction) {
+  if (action is RemoveItemsAction) {
     return List.unmodifiable([]);
   }
 
